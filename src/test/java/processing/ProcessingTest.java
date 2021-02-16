@@ -17,7 +17,7 @@ import org.junit.Test;
 
 import java.util.Collections;
 
-public class VerificationTest {
+public class ProcessingTest {
     private static final String TEST_AUTOMATA_FILE_PATH = "src/test/resources/test1.xml";
     private static final String TEST_LTL_FORMULAE_1 = "G (F POWER_ON)";
     private static final String TEST_LTL_FORMULAE_2 = "G (PRESTART -> (PRESTART U POWER_ON))";
