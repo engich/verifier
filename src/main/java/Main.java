@@ -44,7 +44,7 @@ public class Main {
     }
 
     private static void showUsage() {
-        System.out.println("Usage: java -jar verifier.jar <file with automaton> <ltl formula> [<output file>]");
+        System.out.println("Usage: java -jar verifier.jar <automata file> <ltl formula> [<output file>]");
     }
 
     private static void printCePath(final PrintStream printStream, final Answer answer) {
